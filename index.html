@@ -3,10 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="lava-verify" content="5adc4f0988370362" />
+    <title>Главная страница</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            width: 80px;
+            height: 80px;
+        }
+        .content {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .description {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+        }
+        .feature {
+            width: 30%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feature img {
+            width: 100px;
+            height: 100px;
+        }
+        .footer {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .footer a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <p>Пусто :3</p>
+
+    <div class="header">
+        <img src="https://example.com/your-logo.png" alt="Logo">
+        <h1>Добро пожаловать в нашего Discord-бота</h1>
+    </div>
+
+    <div class="content">
+        <p class="description">
+            Наш бот создан для улучшения управления вашим сервером. Он предлагает множество полезных функций для администраторов и участников.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <img src="https://example.com/feature1.png" alt="Feature 1">
+                <h3>Автоматизация задач</h3>
+                <p>Автоматизируйте повторяющиеся задачи, управляя своим сервером с легкостью.</p>
+            </div>
+            <div class="feature">
+                <img src="https://example.com/feature2.png" alt="Feature 2">
+                <h3>Управление пользователями</h3>
+                <p>Получите доступ к мощным инструментам для управления ролями и правами пользователей.</p>
+            </div>
+            <div class="feature">
+                <img src="https://example.com/feature3.png" alt="Feature 3">
+                <h3>Статистика и аналитика</h3>
+                <p>Следите за активностью на сервере с помощью удобных отчетов и аналитики.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+            <a href="terms-of-service.html">Условия обслуживания</a> | 
+            <a href="privacy-policy.html">Политика конфиденциальности</a>
+        </p>
+        <p>© 2024 Ваш бот. Все права защищены.</p>
+    </div>
+
 </body>
 </html>
